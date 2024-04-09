@@ -1,0 +1,48 @@
+body {
+    background-color: lightgreen;
+}
+p{
+    font-size: 50px;
+    background-color: salmon;
+    color: blueviolet;
+    font-family: cursive;
+    text-align: center;
+}
+table{
+    font-size: 24px;
+    border: 5px double blueviolet;
+    width: 50%;
+    border-collapse: separate;
+    margin: auto;
+}
+th,td{
+    border: 1px solid purple;
+    width: 25%;
+}
+tr:hover{
+    background-color: lightslategray;
+}
+td:hover{
+    background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif);
+    font-weight: bold;
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+tr:nth-child(odd){
+    background-color: lightpink;
+}
+.spcell{
+    border: 2px dashed red;
+    text-align: right;
+    vertical-align: bottom;
+}
+caption{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo);
+    font-size: 36px;
+    text-transform: uppercase;
+}
